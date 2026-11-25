@@ -23,6 +23,21 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
+      - name: Remove progress bar from snake SVGs
+        run: |
+          python3 - <<'EOF'
+          import glob, re
+
+          for path in glob.glob("dist/*.svg"):
+              with open(path, "r", encoding="utf-8") as f:
+                  svg = f.read()
+              svg = re.sub(r'<rect class="u\b[^"]*"[^>]*/>', "", svg)
+              svg = re.sub(r'viewBox="(-?\d+ -?\d+ \d+) 192"', r'viewBox="\1 164"', svg, count=1)
+              svg = re.sub(r'height="192"', 'height="164"', svg, count=1)
+              with open(path, "w", encoding="utf-8") as f:
+                  f.write(svg)
+          EOF
+
       - name: Push snake SVGs to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
