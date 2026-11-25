@@ -16,8 +16,14 @@ Building practical AI systems and lightweight Android tools.
 
 <p>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python,kotlin,java,ts,fastapi,mongodb,docker,androidstudio,git,linux&theme=dark&perline=10" />
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=python,kotlin,java,ts,fastapi,mongodb,docker,androidstudio,git,linux&theme=light&perline=10" />
-    <img src="https://skillicons.dev/icons?i=python,kotlin,java,ts,fastapi,mongodb,docker,androidstudio,git,linux&theme=dark&perline=10" alt="Tech Stack" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python%2Ckotlin%2Cjava%2Cts%2Cfastapi%2Cmongodb%2Cdocker%2Candroidstudio%2Cgit%2Clinux&theme=dark&perline=10" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=python%2Ckotlin%2Cjava%2Cts%2Cfastapi%2Cmongodb%2Cdocker%2Candroidstudio%2Cgit%2Clinux&theme=light&perline=10" />
+    <img src="https://skillicons.dev/icons?i=python%2Ckotlin%2Cjava%2Cts%2Cfastapi%2Cmongodb%2Cdocker%2Candroidstudio%2Cgit%2Clinux&theme=dark&perline=10" alt="Tech Stack" />
   </picture>
 </p>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Haven-Lv/Haven-Lv/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Haven-Lv/Haven-Lv/output/github-contribution-grid-snake.svg" />
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Haven-Lv/Haven-Lv/output/github-contribution-grid-snake.svg" />
+</picture>
